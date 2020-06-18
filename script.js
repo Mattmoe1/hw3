@@ -20,7 +20,7 @@ generateBtn.addEventListener("click", writePassword);
   var minimumCount = 0;
 
 
-// minimums for password
+// characters for password
 var numberCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 var LowerCases = "abcdefghijklmnopqrstuvwxyz"
 var UpperCases = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -57,10 +57,11 @@ var randomPasswordGenerated = "";
 for (let i = 0; i < (parseInt(passwordLength) - minimumCount); i++) {
   var randomNumberPicked = Math.floor(Math.random() * 4);
   randomPasswordGenerated += randomNumberPicked;
-}
+
   randomPasswordGenerated += minimumNumbers;
   randomPasswordGenerated += minimumLowerCases;
   randomPasswordGenerated += minimumUpperCases;
   randomPasswordGenerated += minimumSpecialCharacters;
+}
 
-// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
