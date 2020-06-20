@@ -7,4 +7,10 @@ It uses different prompts to ask if you would like any special cases in the pass
 
 
 
-Couldnt figure out where I went wrong in the code, tried to look around to see what the problem was but still wasn't sure(Will try to figure it out later on in the course)
+Couldnt figure out where I went wrong in the code at first, tried to look around to see what the problem was but still wasn't sure(Will try to figure it out later on in the day)
+
+
+Classmate sent out a youtube video to help understand how password works.
+    https://www.youtube.com/watch?v=v2jfGo7ztm8&feature=youtu.be
+
+After watching the video I understood where I was going wrong in my code.
